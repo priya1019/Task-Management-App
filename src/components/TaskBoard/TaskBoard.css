@@ -1,0 +1,45 @@
+.contain {
+  padding-right: 40px;
+  padding-left: 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.flex-items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.progress-icon {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2196f3;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  align-items: center;
+  flex-direction: row;
+}
+.input-text {
+  font-size: small;
+  font-weight: 500;
+  padding: 6px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 1px solid #78909c;
+  outline: none;
+}
+.submit-button {
+  background-color: #2196f3;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 6px;
+  cursor: pointer;
+}
+.input-text::-webkit-scrollbar {
+  display: none;
+}

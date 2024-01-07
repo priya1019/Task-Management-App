@@ -1,0 +1,43 @@
+.container {
+  background-color: #f4f5f7;
+  border-radius: 20px;
+  width: 300px;
+  height: 460px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: 1px solid #78909c;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.inactive-bg {
+  background-color: #ffcdd2;
+}
+.active-bg {
+  background-color: #bbdefb;
+}
+.completed-bg {
+  background-color: #c8e6c9;
+}
+.inactive-text {
+  color: #f44336;
+}
+.active-text {
+  color: #2196f3;
+}
+.completed-text {
+  color: #4caf50;
+}
+.title {
+  padding: 3px;
+  text-align: center;
+  position: sticky;
+}
+.task-list {
+  padding: 3px;
+  transition: background-color 0.2s ease;
+  background-color: #f4f5f7;
+  flex-grow: 1;
+  min-height: 100px;
+}
